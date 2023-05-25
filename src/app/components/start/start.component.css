@@ -1,0 +1,53 @@
+main {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  opacity: 0;
+  transition-duration: 6s;
+}
+
+main > h1 {
+    font-size: 3em;
+    margin: 2em;
+    padding: 0;
+    text-align: start;
+}
+
+main > h1 > b {
+  color: rgb(121, 255, 177);
+}
+
+.btn {
+    cursor: pointer;
+    color: white;
+    font-size: 1.8em;
+    background-color: transparent;
+    margin: 1em;
+    padding: 0.7em 1.5em;
+    border: 2px white solid;
+    border-radius: 1em;
+    transition-duration: 0.3s;
+}
+
+.btn:hover {
+  border-radius: 0;
+  border: 2px darkviolet solid;
+  color: darkviolet;
+}
+
+#flecha {
+  position: absolute;
+  width: 1em;
+  top: 80vh;
+  animation: float 2s ease-in-out infinite;
+  filter: invert();
+}
+
+@keyframes float {
+  0% {top: 92vh}
+  50% {top: 94vh}
+  100% {top: 92vh}
+}
