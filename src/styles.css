@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -11,8 +15,4 @@ body {
 
 #keyword {
   color: rebeccapurple;
-}
-
-#method {
-  color: #ffd03d;
 }

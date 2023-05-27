@@ -38,16 +38,23 @@ main > h1 > b {
   color: darkviolet;
 }
 
+.arrow_container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 10vh;
+}
+
 #flecha {
   position: absolute;
   width: 1em;
-  top: 80vh;
   animation: float 2s ease-in-out infinite;
   filter: invert();
 }
 
 @keyframes float {
-  0% {top: 92vh}
-  50% {top: 94vh}
-  100% {top: 92vh}
+  0% {top: 7vh}
+  50% {top: 9vh}
+  100% {top: 7vh}
 }

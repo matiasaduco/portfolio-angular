@@ -63,8 +63,8 @@
 }
 
 #hobbies > div:hover {
-  border-radius: 0;
-  transform: scale(1.6);
+  border-radius: 3em;
+  transform: scale(1.4);
 }
 
 #hobbies > div > span,
