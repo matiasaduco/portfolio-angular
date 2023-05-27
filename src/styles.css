@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(15, 15, 15);
+  font-family: "IBM Plex Mono", monospace;
+}
+
+#keyword {
+  color: rebeccapurple;
+}
+
+#method {
+  color: #ffd03d;
+}
