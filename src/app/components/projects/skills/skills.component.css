@@ -1,0 +1,57 @@
+#skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+#skills > span {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px white solid;
+    box-shadow: inset 0 0 1em black;
+}
+
+#skills > span > label {
+    display: block;
+    border-right: 1px white solid;
+    padding: 1.5em;
+    width: 12%;
+    text-align: center;
+}
+
+#skills > span > img {
+    padding: 1em;
+    width: 5%;
+    margin: 0 auto;
+}
+
+#frontend, #backend, #tools {
+    position: relative;
+}
+
+#frontend::after {
+    background-image: url('../../../../assets/frontend.jpg');
+}
+
+#backend::after {
+    background-image: url('../../../../assets/backend.jpg');
+}
+
+#tools::after {
+    background-image: url('../../../../assets/tools.jpg');
+}
+
+#frontend::after, #backend::after, #tools::after {
+    content: "";
+    position: absolute;
+    background-size: cover;
+    background-position: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(0.2em);
+}
