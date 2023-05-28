@@ -1,0 +1,12 @@
+<div id="projects_container">
+  <label>Proyectos</label>
+  <span>
+    <a id="project" *ngFor="let project of projects" [href]="project.html_url">
+      <span>
+        <h1>{{ project.name }}</h1>
+        <q>{{ project.description }}</q>
+      </span>
+      <img src="../../../../assets/repositories/{{project.name}}.png" [alt]="project.name" />
+    </a>
+  </span>
+</div>

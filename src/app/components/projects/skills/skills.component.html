@@ -1,0 +1,26 @@
+<div id="skills">
+  <span id="frontend">
+    <label>Frontend</label>
+    <img
+      *ngFor="let skill of frontend_skills"
+      [src]="skill.src"
+      [alt]="skill.title"
+    />
+  </span>
+  <span id="backend">
+    <label>Backend</label>
+    <img
+      *ngFor="let skill of backend_skills"
+      [src]="skill.src"
+      [alt]="skill.title"
+    />
+  </span>
+  <span id="tools">
+    <label>Herramientas</label>
+    <img
+      *ngFor="let skill of tools_skills"
+      [src]="skill.src"
+      [alt]="skill.title"
+    />
+  </span>
+</div>
