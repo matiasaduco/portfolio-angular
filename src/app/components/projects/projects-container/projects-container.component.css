@@ -4,8 +4,8 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 60em;
-    height: 35em;
-    margin: 4em auto 0 auto;
+    height: 37em;
+    margin: 1em auto 0 auto;
     text-align: center;
 }
 
@@ -20,18 +20,18 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    height: 95%;
-    overflow: scroll;
+    height: 100%;
 }
 
 #project {
     position: relative;
     flex-basis: 33%;
-    height: 18em;
+    height: 50%;
     padding: 0;
     cursor: pointer;
     border: 1px transparent solid;
     background-color: transparent;
+    overflow: hidden;
 }
 
 #project > span {
@@ -39,7 +39,7 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.4);
-    transform: translateY(-105%);
+    transform: translateY(-100%);
     transition-duration: 0.3s;
     color: white;
 }

@@ -29,7 +29,7 @@ export class SkillsComponent {
   tools_skills: any[] = [
     { title: 'git', src: '../../../assets/icons/skills/git.svg' },
     { title: 'S.O.L.I.D.', src: '../../../assets/icons/skills/solid.png' },
-    { title: 'TDD', src: '../../../assets/icons/skills' },
-    { title: 'Scrum', src: '../../../assets/icons/skills' },
+    { title: 'TDD', src: '../../../../assets/icons/skills/tdd.png' },
+    { title: 'Scrum', src: '../../../../assets/icons/skills/scrum.png' },
   ];
 }
